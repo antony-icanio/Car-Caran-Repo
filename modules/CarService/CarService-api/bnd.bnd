@@ -1,0 +1,10 @@
+Bundle-Name: CarService-api
+Bundle-SymbolicName: com.carservice.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.carservice.exception,\
+	com.carservice.model,\
+	com.carservice.service,\
+	com.carservice.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../CarService-service/service.xml
